@@ -1,0 +1,14 @@
+server:
+  port: 6306
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+management:
+  security:
+    enabled: true
+  application:
+    name: config-client
+test: test-config
